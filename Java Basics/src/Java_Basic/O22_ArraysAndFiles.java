@@ -1,0 +1,24 @@
+package Java_Basic;
+
+import java.io.File;
+import java.io.IOException;
+import java.util.Scanner;
+
+public class O22_ArraysAndFiles{
+    public static void main(String[] args) throws IOException {
+        int [] values = new int [12];
+        int i = 0;
+        File file = new File("Values.txt");
+        if(file.exists()){
+            Scanner inputFile = new Scanner(file);
+            while(inputFile.hasNext() && i <  values.length){
+                values[i] = inputFile.nextInt();
+                i++;
+            }
+            inputFile.close();
+            for (int value : values ) {
+                System.out.println(value);
+            }
+        }
+    }
+}
