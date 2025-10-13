@@ -1,2 +1,2 @@
-# java_tutor
+# JAVA TUTORIAL
 Basics of JAVA for beginners
