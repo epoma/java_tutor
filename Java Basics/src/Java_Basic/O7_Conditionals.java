@@ -4,7 +4,7 @@ import javax.swing.*;
 
 public class O7_Conditionals {
     public static void main(String[] args) {
-
+        //variable number
         int number;
         String input;
         input = JOptionPane.showInputDialog("Enter number:");
