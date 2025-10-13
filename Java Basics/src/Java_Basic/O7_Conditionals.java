@@ -22,7 +22,7 @@ public class O7_Conditionals {
         if (number > 10){
             JOptionPane.showMessageDialog(null,"number is greater than 10");
         }
-
+        //close algorithm
         System.exit(0);
 
     }
