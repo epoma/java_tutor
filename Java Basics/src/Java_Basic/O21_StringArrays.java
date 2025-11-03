@@ -1,12 +1,16 @@
 package Java_Basic;
+
 public class O21_StringArrays {
+
     public static void main(String[] args) {
         String [] names = getNames();
         for(int i = 0; i < names.length; i++){
-            if(names [i] != null){
-                System.out.println(names[i].charAt(1));
+            if(names [i] != null)
+            {
+                //System.out.println(names[i].charAt(1));
+                System.out.println(names[i]);
             }
-                //System.out.println(names[i]);
+
         }
     }
     public static String [] getNames(){
@@ -17,4 +21,9 @@ public class O21_StringArrays {
         names[3] = "Carlos";
         return names;
     }
+
+
+
+
+
 }
