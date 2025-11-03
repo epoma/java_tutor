@@ -27,9 +27,5 @@ public class O23_TheArraysList {
         {
             System.out.println(names.get(i));
         }
-
-
     }
-
-
 }
